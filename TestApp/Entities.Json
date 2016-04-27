@@ -1,0 +1,27 @@
+﻿{
+	"description" : "entities",
+	"type": "object",
+	"properties": {
+        "hashtags": {
+          "type": "array",
+          "items": {"$ref": "Hashtag.json"}
+
+        },
+        "symbols": {
+          "type": "array",
+          "items": []
+        },
+        "user_mentions": {
+          "type": "array",
+          "items": {"$ref": "user_mentions.json"}
+        },
+        "urls": {
+          "type": "array",
+          "items": {"$ref": "url.json"}
+		  },
+        "media": {
+          "type": "array",
+          "items": {"$ref": "media.json"}
+	    }
+		}      
+    }

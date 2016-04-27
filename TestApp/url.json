@@ -1,0 +1,19 @@
+﻿{
+  "description":"url",
+  "type": "object",
+  "properties": {
+    "indices": {
+      "type": "array",
+      "items": {"type": "integer"},      
+    },
+    "url": {"type": "string"},
+    "display_url": {"type": "string"},
+    "expanded_url": {"type": "string"}},
+  "additionalProperties": false,
+  "required": [
+    "indices",
+    "url",
+    "display_url",
+    "expanded_url"
+  ]
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccesToken>
+  <Consumer_Key>add_your_Consumer_key_here</Consumer_Key>
+  <Consumer_Secret>add_your_Consumer_secret_here</Consumer_Secret>
+  <Token>add_your_Acces_Token_here</Token>
+  <Secret>add_your_Acces_Secret_here</Secret>
+</AccesToken>

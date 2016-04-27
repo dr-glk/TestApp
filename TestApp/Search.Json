@@ -1,0 +1,48 @@
+﻿{
+  "description" : "Search",
+  "type": "object",
+   "properties": {
+    "statuses": {
+      "type": "array",
+      "items" : {"$ref": "Tweet.Json"}
+	  },
+	  "search_metadata": {
+      "type": "object",
+      "properties": {
+        "completed_in": {
+          "type": "number"
+        },
+        "max_id": {
+          "type": "integer"
+        },
+        "max_id_str": {
+          "type": "string"
+        },
+        "next_results": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "refresh_url": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "since_id": {
+          "type": "integer"
+        },
+        "since_id_str": {
+          "type": "string"
+        }
+      },      
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "statuses",
+    "search_metadata"
+  ]
+  
+}

@@ -1,0 +1,22 @@
+﻿{
+  "description" : "hashtag",
+  "type": "object",
+  "properties": {
+    "indices": {
+      "type": "array",
+      "items": [
+        {
+          "type": "integer"
+        }        
+      ]      
+    },
+    "text": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "indices",
+    "text"
+  ]
+}

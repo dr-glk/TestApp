@@ -1,0 +1,118 @@
+﻿{
+  "description":"media",
+  "type": "object",
+  "properties": {
+    "type": {"type": "string"},
+    "sizes": {
+      "type": "object",
+      "properties": {
+        "thumb": {
+          "type": "object",
+          "properties": {
+            "h": {
+              "type": "integer"
+            },
+            "resize": {
+              "type": "string"
+            },
+            "w": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
+        },
+        "large": {
+          "type": "object",
+          "properties": {
+            "h": {
+              "type": "integer"
+            },
+            "resize": {
+              "type": "string"
+            },
+            "w": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
+        },
+        "medium": {
+          "type": "object",
+          "properties": {
+            "h": {
+              "type": "integer"
+            },
+            "resize": {
+              "type": "string"
+            },
+            "w": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
+        },
+        "small": {
+          "type": "object",
+          "properties": {
+            "h": {
+              "type": "integer"
+            },
+            "resize": {
+              "type": "string"
+            },
+            "w": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "indices": {
+      "type": "array",
+      "items": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "media_url": {
+      "type": "string"
+    },
+    "display_url": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "id_str": {
+      "type": "string"
+    },
+    "expanded_url": {
+      "type": "string"
+    },
+    "media_url_https": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "sizes",
+    "indices",
+    "url",
+    "media_url",
+    "display_url",
+    "id",
+    "id_str",
+    "expanded_url",
+    "media_url_https"
+  ]
+}

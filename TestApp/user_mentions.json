@@ -1,0 +1,22 @@
+﻿{
+  "description":"user_mentions",
+  "type": "object",
+  "properties": {
+    "name": {"type": "string"},
+    "indices": {
+	  "type": "array",
+      "items": {"type": "integer"}
+    },
+    "screen_name": {"type": "string"},
+    "id": {"type": "integer"},
+    "id_str": {"type": "string"}
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "indices",
+    "screen_name",
+    "id",
+    "id_str"
+  ]
+}
